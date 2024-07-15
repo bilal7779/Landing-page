@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: "Roboto Slab", serif;
+}
+.first-section{
+    background-color: #1F2937;
+}
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-logo,.navbar-links{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-size: 48px;
+    font: weight bolder;
+    color: #F9FAF8;
+}
+#main-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
