@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
+
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -19,11 +20,13 @@
     font-weight: bolder;
     color: #F9FAF8;
     margin-left: 200px;
+    padding-top: 10px;
 }
 
 .links{
     list-style-type: none;
     margin-right: 100px;
+    padding-top: 10px;
 }
 
 li{
@@ -39,3 +42,50 @@ a{
     color: #E5E7EB;
 }
 
+.main{
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #1F2937 ;
+    padding-bottom: 100px;
+}
+
+.hero{
+    margin-left: 200px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.hero h2{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:400;
+}
+.image{
+   padding-left: 80px;
+   display: inline-block;
+   border: none;
+   width: auto;
+   height: auto;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.hero button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 10px;
+}
